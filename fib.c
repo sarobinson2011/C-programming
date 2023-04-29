@@ -4,7 +4,7 @@ int main(void)
 {
     int x, z, i = 0;
     int y = 1;
-    int n = 13;
+    int n = 12;
 
     printf("Fibonacci numers to %d iterations\n\n", n);
 
