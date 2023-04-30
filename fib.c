@@ -1,17 +1,11 @@
-/*
----> Calculate Fibonacci numbers
-*/
-
 #include <stdio.h>
 
 int main(void)
 {
     int x, z, i = 0;
     int y = 1;
-    int num = 12;
-    int a = 0;
+    int n = 13;
 
-    printf("This program calculates:");
     printf("Fibonacci numers to %d iterations\n\n", n);
 
     do
@@ -21,7 +15,7 @@ int main(void)
         z = x + y;
         x = y;
         y = z;
-    } while (i < num);
+    } while (i < n);
 
     printf("\n");
 }
