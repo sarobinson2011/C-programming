@@ -8,9 +8,10 @@ int main(void)
 {
     int x, z, i = 0;
     int y = 1;
-    int n = 12;
+    int num = 12;
     int a = 0;
 
+    printf("This program calculates:");
     printf("Fibonacci numers to %d iterations\n\n", n);
 
     do
@@ -20,7 +21,7 @@ int main(void)
         z = x + y;
         x = y;
         y = z;
-    } while (i < n);
+    } while (i < num);
 
     printf("\n");
 }
