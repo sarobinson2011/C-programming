@@ -1,3 +1,7 @@
+/*
+---> Calculate Fibonacci numbers
+*/
+
 #include <stdio.h>
 
 int main(void)
@@ -5,6 +9,7 @@ int main(void)
     int x, z, i = 0;
     int y = 1;
     int n = 12;
+    int a = 0;
 
     printf("Fibonacci numers to %d iterations\n\n", n);
 
